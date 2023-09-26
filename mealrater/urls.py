@@ -5,11 +5,12 @@ from rest_framework import routers
 
 
 router = routers.DefaultRouter()
-router.register('meals',MealListApi)
-router.register('rating',RatingPkApi)
+router.register("meals", MealListApi)
+router.register("rating", RatingPkApi)
+router.register("user", UserViewSet)
 
-app_name = 'mealrater'
+app_name = "mealrater"
 
 urlpatterns = [
-    path('',include(router.urls)),
+    path("", include(router.urls)),
 ]
