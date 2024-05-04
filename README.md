@@ -22,7 +22,7 @@ Meal Review API is a RESTful API project built using Django REST Framework, allo
 - Python: The primary programming language used in developing the system.
 - ORM (Object-Relational Mapping): For interacting with the database in a more straightforward manner.
 - Django REST Framework: A powerful toolkit for building Web APIs in Django, offering ease of use, flexibility for customization, and excellent performance.
-- JWT (JSON Web Tokens): A secure and compact way of representing claims between parties as a JSON object, commonly used for authentication and authorization in web applications.
+- Token: A secure and compact way of representing claims between parties as a JSON object, commonly used for authentication and authorization in web applications.
 - PostgreSQL: An advanced open-source relational database management system known for its reliability, robustness, and support for SQL standards, widely used in web development for its scalability and features.
 - PEP8: Python coding style guide for code formatting and appearance.
 ## Installation and Running:
